@@ -1,0 +1,43 @@
+.tag-item {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    width: 115px;
+    height: 36px;
+    background: #455268;
+    padding: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    .tag-title {
+        flex: 1;
+        color: #fff;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .tag-close {
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+
+        .tag-close-img {
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    &.active {
+        background: #fff;
+
+        .tag-title {
+            color: #455268;
+        }
+    }
+}

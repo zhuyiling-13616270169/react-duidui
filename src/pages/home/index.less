@@ -1,0 +1,116 @@
+.home-large {
+    .home-large-less {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.02);
+
+        .home-large-row {
+            background-color: rgba(0, 0, 0, 0.02);
+
+            .home-large-tab {
+                height: 60px;
+
+                .ant-tabs-nav {
+                    height: 55px;
+                    margin: 0;
+                    padding: 0 20px;
+
+                    &:before {
+                        border-bottom: 0;
+                    }
+                }
+
+                .ant-tabs-tab {
+                    width: 55px;
+                    margin: 0 0 0 20px;
+                    justify-content: center;
+                    color: #000;
+
+                    .ant-tabs-tab-btn {
+                        font-size: 14px;
+                    }
+                }
+
+                .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+                    color: #1890ff;
+                }
+
+                .ant-tabs-ink-bar {
+                    transform: scaleX(0.8);
+                    background-color: #1890ff;
+                }
+            }
+
+            .home-large-rangePicker {
+                margin-left: 20px;
+
+                .ant-picker-range {
+                    color: #000;
+                    border: 1px solid rgba(0, 0, 0, 0.02);
+                    background-color: rgba(0, 0, 0, 0.02);
+                }
+
+                .ant-picker-input {
+                    input {
+                        color: #000;
+
+                        &::-webkit-input-placeholder {
+                            color: #000;
+                        }
+                    }
+                }
+
+                .ant-picker-separator {
+                    color: #000;
+                }
+
+                .ant-picker-suffix {
+                    color: #000;
+                }
+
+                .ant-picker-clear {
+                    color: #000;
+                    background-color: #093163;
+                }
+
+                .rangePicker-footer {
+                    display: flex;
+                    flex-direction: row;
+
+                    span {
+                        margin-left: 20px;
+                        flex: 1;
+                    }
+
+                    a {
+                        margin-right: 20px;
+                        color: #1890ff;
+                    }
+                }
+            }
+
+            .home-large-button {
+                margin: 0 20px;
+            }
+        }
+    }
+
+    .home-large-charts-less {
+        margin-top: 10px;
+    }
+
+    .title {
+        height: 40px;
+        line-height: 40px;
+        color: #03C2EC;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .scene {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        pointer-events: none;
+    }
+}
